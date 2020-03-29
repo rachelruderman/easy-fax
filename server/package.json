@@ -2,18 +2,18 @@
   "name": "server",
   "version": "1.0.0",
   "description": "",
-  "main": "nodemon run esm index.js",
+  "main": "npm run esm index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "rachelruderman",
   "license": "ISC",
   "dependencies": {
+    "cloudinary": "^1.20.0",
     "dotenv": "^8.2.0",
     "esm": "^3.2.25",
-    "express": "^4.17.1"
+    "mailparser": "^2.7.7",
+    "twilio": "^3.41.1"
   },
-  "devDependencies": {
-    "nodemon": "^2.0.2"
-  }
+  "devDependencies": {}
 }
